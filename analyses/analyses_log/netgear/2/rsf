@@ -1,0 +1,269 @@
+[92m[+][0m check_creds => false
+[92m[+][0m threads => 1
+[92m[+][0m target => 192.168.0.100
+[94m[*][0m Running module scanners/autopwn...
+
+[94m[*][0m 192.168.0.100 Starting vulnerablity check...
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/ipfire/ipfire_shellshock Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/ipfire/ipfire_proxy_rce Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/ipfire/ipfire_oinkcode_rce Could not be verified
+[91m[-][0m Exploit failed - could not find password
+[94m[*][0m 192.168.0.100:80 http exploits/routers/huawei/hg530_hg520b_password_disclosure Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/huawei/hg866_password_change Could not be verified
+[94m[*][0m 192.168.0.100:80 http exploits/routers/huawei/e5331_mifi_info_disclosure Could not be verified
+[91m[-][0m Exploit failed - device seems to be not vulnerable
+[94m[*][0m 192.168.0.100:43690 custom/udp exploits/routers/huawei/hg520_info_disclosure Could not be verified
+[94m[*][0m It's not possible to check if the target is vulnerable. Try to use following command loop.
+[94m[*][0m Invoking command loop...
+[94m[*][0m It is blind command injection, response is not available
+[94m[*][0m 192.168.0.100:1900 custom/udp exploits/routers/dlink/dir_815_850l_rce Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dgs_1510_add_user Could not be verified
+[94m[*][0m Decoding JSON
+[91m[-][0m Exploit failed - response is not valid JSON
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dwr_932_info_disclosure Could not be verified
+[91m[-][0m Target does not appear to be vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dwl_3200ap_password_disclosure Could not be verified
+[91m[-][0m Exploit failed - credentials could not be found
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dsl_2750b_info_disclosure Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dir_645_815_rce Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dcs_930l_auth_rce Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/multi_hnap_rce Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dir_825_path_traversal Could not be verified
+[91m[-][0m Target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dir_300_320_615_auth_bypass Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dns_320l_327l_rce Could not be verified
+[91m[-][0m Exploit Failed - Target does not seem to be vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dir_8xx_password_disclosure Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:1900 custom/udp exploits/routers/dlink/dir_300_645_815_upnp_rce Could not be verified
+[94m[*][0m Attempting to change DNS settings...
+[94m[*][0m Primary DNS: 8.8.8.8
+[94m[*][0m Secondary DNS: 8.8.4.4
+[91m[-][0m Could not change DNS settings
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dsl_2640b_dns_change Could not be verified
+[91m[-][0m Device seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dsl_2730_2750_path_traversal Could not be verified
+[94m[*][0m Attempting to change DNS settings...
+[94m[*][0m Primary DNS: 8.8.8.8
+[94m[*][0m Secondary DNS: 8.8.4.4
+[91m[-][0m Could not change DNS settings
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dsl_2740r_dns_change Could not be verified
+[91m[-][0m Exploit failed
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dvg_n5402sp_path_traversal Could not be verified
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dsl_2750b_rce Could not be verified
+[94m[*][0m Attempting to change DNS settings...
+[94m[*][0m Primary DNS: 8.8.8.8
+[94m[*][0m Secondary DNS: 8.8.4.4
+[91m[-][0m Could not change DNS settings
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dsl_2730b_2780b_526b_dns_change Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dsp_w110_rce Could not be verified
+[91m[-][0m Credentials could not be found
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dir_645_password_disclosure Could not be verified
+[91m[-][0m Credentials could not be found
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dir_300_320_600_615_info_disclosure Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dir_300_600_rce Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/multi_hedwig_cgi_exec Could not be verified
+[94m[*][0m Sending backdoor packet
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:39889 custom/udp exploits/routers/dlink/dwr_932b_backdoor Could not be verified
+[91m[-][0m Target does not seem to be vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/dlink/dir_850l_creds_disclosure Could not be verified
+[94m[*][0m Checking if target is vulnerable
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/asmax/ar_804_gu_rce Could not be verified
+[94m[*][0m Requesting http://192.168.0.100:80
+[94m[*][0m Trying to extract credentials
+[91m[-][0m Exploit failed - credentials could not be found
+[94m[*][0m 192.168.0.100:80 http exploits/routers/asmax/ar_1004g_password_disclosure Could not be verified
+[91m[-][0m Target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/netgear/n300_auth_bypass Could not be verified
+[92m[+][0m Target is vulnerable
+[94m[*][0m Invoking command loop...
+[94m[*][0m It is blind command injection - response is not available. Use reverse_tcp <reverse ip> <port>
+[94m[*][0m 192.168.0.100:80 http exploits/routers/netgear/multi_rce Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/netgear/dgn2200_ping_cgi_rce Could not be verified
+[91m[-][0m Device seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/netgear/wnr500_612v3_jnr1010_2010_path_traversal Could not be verified
+[94m[*][0m It is not possible to check if target is vulnerable
+[94m[*][0m Trying to invoke command loop...
+[94m[*][0m It is blind command injection. Response is not available.
+[94m[*][0m 192.168.0.100:80 http exploits/routers/netgear/dgn2200_dnslookup_cgi_rce Could not be verified
+<Response [200]>
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/netgear/r7000_r6400_rce Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/netgear/prosafe_rce Could not be verified
+[91m[-][0m Device seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/netgear/jnr1010_path_traversal Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/netgear/multi_password_disclosure-2017-5521 Could not be verified
+[94m[*][0m Retrieving random login token...
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/zte/zxv10_rce Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/zte/f460_f660_backdoor Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/zte/zxhn_h108n_wifi_password_disclosure Could not be verified
+[91m[-][0m Exploit failed. Device seems to be not vulnerable.
+[94m[*][0m 192.168.0.100:80 http exploits/routers/thomson/twg850_password_disclosure Could not be verified
+[94m[*][0m Reading parameters...
+[91m[-][0m Exploit failed - could not read sensitive information
+[94m[*][0m 192.168.0.100:22 snmp exploits/routers/thomson/twg849_info_disclosure Could not be verified
+[91m[-][0m Exploit failed - target does not seem to be vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/multi/gpon_home_gateway_rce Could not be verified
+[91m[-][0m Invalid device identifier option
+[94m[*][0m 192.168.0.100:80 http exploits/routers/multi/misfortune_cookie Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/multi/rom0 Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:32764 custom/tcp exploits/routers/multi/tcp_32764_info_disclosure Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:32764 custom/tcp exploits/routers/multi/tcp_32764_rce Could not be verified
+[94m[*][0m 192.168.0.100:22 ssh exploits/routers/mikrotik/routeros_jailbreak Could not be verified
+[91m[-][0m 192.168.0.100:8291 TCP Error while connecting to the server [Errno 111] Connection refused
+[91m[-][0m 192.168.0.100:8291 TCP Error while sending data [Errno 32] Broken pipe
+[91m[-][0m Exploit failed - target does not seem to be vulnerable
+[94m[*][0m 192.168.0.100:8291 custom/tcp exploits/routers/mikrotik/winbox_auth_bypass_creds_disclosure Could not be verified
+[91m[-][0m Device seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/movistar/adsl_router_bhs_rta_path_traversal Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:53413 custom/udp exploits/routers/netcore/udp_53413_rce Could not be verified
+[91m[-][0m Exploit failed
+[94m[*][0m 192.168.0.100:22 ssh exploits/routers/fortinet/fortigate_os_backdoor Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/tplink/wdr740nd_wdr740n_path_traversal Could not be verified
+[91m[-][0m Exploit failed. Device seems to be not vulnerable.
+[94m[*][0m 192.168.0.100:80 http exploits/routers/tplink/wdr842nd_wdr842n_configure_disclosure Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/tplink/wdr740nd_wdr740n_backdoor Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/tplink/archer_c2_c20i_rce Could not be verified
+[91m[-][0m Target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/zyxel/p660hn_t_v2_rce Could not be verified
+[91m[-][0m Target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/zyxel/p660hn_t_v1_rce Could not be verified
+[91m[-][0m Exploit failed - target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/zyxel/zywall_usg_extract_hashes Could not be verified
+[91m[-][0m Target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/zyxel/d1000_rce Could not be verified
+[91m[-][0m Target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/zyxel/d1000_wifi_password_disclosure Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/bhu/bhu_urouter_rce Could not be verified
+[91m[-][0m Target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/2wire/gateway_auth_bypass Could not be verified
+[91m[-][0m Target seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/2wire/4011g_5012nv_path_traversal Could not be verified
+[91m[-][0m Exploit failed. Device seems to be not vulnerable.
+[94m[*][0m 192.168.0.100:80 http exploits/routers/belkin/play_max_prce Could not be verified
+[91m[-][0m Exploit failed
+[94m[*][0m 192.168.0.100:80 http exploits/routers/belkin/g_plus_info_disclosure Could not be verified
+[91m[-][0m Target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/belkin/n750_rce Could not be verified
+[91m[-][0m Device seems to be not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/belkin/n150_path_traversal Could not be verified
+[91m[-][0m Exploit failed. Device seems to be not vulnerable.
+[94m[*][0m 192.168.0.100:80 http exploits/routers/belkin/g_n150_password_disclosure Could not be verified
+[91m[-][0m Exploit failed. Device seems to be not vulnerable.
+[94m[*][0m 192.168.0.100:80 http exploits/routers/belkin/auth_bypass Could not be verified
+[91m[-][0m Exploit failed - target is not vulnerable
+[94m[*][0m 192.168.0.100:80 http exploits/routers/ubiquiti/airos_6_x Could not be verified
+[94m[*][0m Elapsed time: 327.7000 seconds
+
+[94m[*][0m 192.168.0.100 Could not verify exploitability:
+ - 192.168.0.100:80 http exploits/routers/ipfire/ipfire_shellshock
+ - 192.168.0.100:80 http exploits/routers/ipfire/ipfire_proxy_rce
+ - 192.168.0.100:80 http exploits/routers/ipfire/ipfire_oinkcode_rce
+ - 192.168.0.100:80 http exploits/routers/huawei/hg530_hg520b_password_disclosure
+ - 192.168.0.100:80 http exploits/routers/huawei/hg866_password_change
+ - 192.168.0.100:80 http exploits/routers/huawei/e5331_mifi_info_disclosure
+ - 192.168.0.100:43690 custom/udp exploits/routers/huawei/hg520_info_disclosure
+ - 192.168.0.100:1900 custom/udp exploits/routers/dlink/dir_815_850l_rce
+ - 192.168.0.100:80 http exploits/routers/dlink/dgs_1510_add_user
+ - 192.168.0.100:80 http exploits/routers/dlink/dwr_932_info_disclosure
+ - 192.168.0.100:80 http exploits/routers/dlink/dwl_3200ap_password_disclosure
+ - 192.168.0.100:80 http exploits/routers/dlink/dsl_2750b_info_disclosure
+ - 192.168.0.100:80 http exploits/routers/dlink/dir_645_815_rce
+ - 192.168.0.100:80 http exploits/routers/dlink/dcs_930l_auth_rce
+ - 192.168.0.100:80 http exploits/routers/dlink/multi_hnap_rce
+ - 192.168.0.100:80 http exploits/routers/dlink/dir_825_path_traversal
+ - 192.168.0.100:80 http exploits/routers/dlink/dir_300_320_615_auth_bypass
+ - 192.168.0.100:80 http exploits/routers/dlink/dns_320l_327l_rce
+ - 192.168.0.100:80 http exploits/routers/dlink/dir_8xx_password_disclosure
+ - 192.168.0.100:1900 custom/udp exploits/routers/dlink/dir_300_645_815_upnp_rce
+ - 192.168.0.100:80 http exploits/routers/dlink/dsl_2640b_dns_change
+ - 192.168.0.100:80 http exploits/routers/dlink/dsl_2730_2750_path_traversal
+ - 192.168.0.100:80 http exploits/routers/dlink/dsl_2740r_dns_change
+ - 192.168.0.100:80 http exploits/routers/dlink/dvg_n5402sp_path_traversal
+ - 192.168.0.100:80 http exploits/routers/dlink/dsl_2750b_rce
+ - 192.168.0.100:80 http exploits/routers/dlink/dsl_2730b_2780b_526b_dns_change
+ - 192.168.0.100:80 http exploits/routers/dlink/dsp_w110_rce
+ - 192.168.0.100:80 http exploits/routers/dlink/dir_645_password_disclosure
+ - 192.168.0.100:80 http exploits/routers/dlink/dir_300_320_600_615_info_disclosure
+ - 192.168.0.100:80 http exploits/routers/dlink/dir_300_600_rce
+ - 192.168.0.100:80 http exploits/routers/dlink/multi_hedwig_cgi_exec
+ - 192.168.0.100:39889 custom/udp exploits/routers/dlink/dwr_932b_backdoor
+ - 192.168.0.100:80 http exploits/routers/dlink/dir_850l_creds_disclosure
+ - 192.168.0.100:80 http exploits/routers/asmax/ar_804_gu_rce
+ - 192.168.0.100:80 http exploits/routers/asmax/ar_1004g_password_disclosure
+ - 192.168.0.100:80 http exploits/routers/netgear/n300_auth_bypass
+ - 192.168.0.100:80 http exploits/routers/netgear/multi_rce
+ - 192.168.0.100:80 http exploits/routers/netgear/dgn2200_ping_cgi_rce
+ - 192.168.0.100:80 http exploits/routers/netgear/wnr500_612v3_jnr1010_2010_path_traversal
+ - 192.168.0.100:80 http exploits/routers/netgear/dgn2200_dnslookup_cgi_rce
+ - 192.168.0.100:80 http exploits/routers/netgear/r7000_r6400_rce
+ - 192.168.0.100:80 http exploits/routers/netgear/prosafe_rce
+ - 192.168.0.100:80 http exploits/routers/netgear/jnr1010_path_traversal
+ - 192.168.0.100:80 http exploits/routers/netgear/multi_password_disclosure-2017-5521
+ - 192.168.0.100:80 http exploits/routers/zte/zxv10_rce
+ - 192.168.0.100:80 http exploits/routers/zte/f460_f660_backdoor
+ - 192.168.0.100:80 http exploits/routers/zte/zxhn_h108n_wifi_password_disclosure
+ - 192.168.0.100:80 http exploits/routers/thomson/twg850_password_disclosure
+ - 192.168.0.100:22 snmp exploits/routers/thomson/twg849_info_disclosure
+ - 192.168.0.100:80 http exploits/routers/multi/gpon_home_gateway_rce
+ - 192.168.0.100:80 http exploits/routers/multi/misfortune_cookie
+ - 192.168.0.100:80 http exploits/routers/multi/rom0
+ - 192.168.0.100:32764 custom/tcp exploits/routers/multi/tcp_32764_info_disclosure
+ - 192.168.0.100:32764 custom/tcp exploits/routers/multi/tcp_32764_rce
+ - 192.168.0.100:22 ssh exploits/routers/mikrotik/routeros_jailbreak
+ - 192.168.0.100:8291 custom/tcp exploits/routers/mikrotik/winbox_auth_bypass_creds_disclosure
+ - 192.168.0.100:80 http exploits/routers/movistar/adsl_router_bhs_rta_path_traversal
+ - 192.168.0.100:53413 custom/udp exploits/routers/netcore/udp_53413_rce
+ - 192.168.0.100:22 ssh exploits/routers/fortinet/fortigate_os_backdoor
+ - 192.168.0.100:80 http exploits/routers/tplink/wdr740nd_wdr740n_path_traversal
+ - 192.168.0.100:80 http exploits/routers/tplink/wdr842nd_wdr842n_configure_disclosure
+ - 192.168.0.100:80 http exploits/routers/tplink/wdr740nd_wdr740n_backdoor
+ - 192.168.0.100:80 http exploits/routers/tplink/archer_c2_c20i_rce
+ - 192.168.0.100:80 http exploits/routers/zyxel/p660hn_t_v2_rce
+ - 192.168.0.100:80 http exploits/routers/zyxel/p660hn_t_v1_rce
+ - 192.168.0.100:80 http exploits/routers/zyxel/zywall_usg_extract_hashes
+ - 192.168.0.100:80 http exploits/routers/zyxel/d1000_rce
+ - 192.168.0.100:80 http exploits/routers/zyxel/d1000_wifi_password_disclosure
+ - 192.168.0.100:80 http exploits/routers/bhu/bhu_urouter_rce
+ - 192.168.0.100:80 http exploits/routers/2wire/gateway_auth_bypass
+ - 192.168.0.100:80 http exploits/routers/2wire/4011g_5012nv_path_traversal
+ - 192.168.0.100:80 http exploits/routers/belkin/play_max_prce
+ - 192.168.0.100:80 http exploits/routers/belkin/g_plus_info_disclosure
+ - 192.168.0.100:80 http exploits/routers/belkin/n750_rce
+ - 192.168.0.100:80 http exploits/routers/belkin/n150_path_traversal
+ - 192.168.0.100:80 http exploits/routers/belkin/g_n150_password_disclosure
+ - 192.168.0.100:80 http exploits/routers/belkin/auth_bypass
+ - 192.168.0.100:80 http exploits/routers/ubiquiti/airos_6_x
+
+[91m[-][0m 192.168.0.100 Could not confirm any vulnerablity
+
+[91m[-][0m 192.168.0.100 Could not find default credentials
